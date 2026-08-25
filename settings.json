@@ -1,0 +1,100 @@
+{
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        // "editor.codeActionsOnSave": {
+        // "source.organizeImports": "explicit"
+        // }
+    },
+    // "[typescript]": { "editor.defaultFormatter": "denoland.vscode-deno" },
+    // "deno.enable": true,
+    // "deno.lint": true,
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        // "editor.codeActionsOnSave": {
+        //     "source.organizeImports": "explicit"
+        //   }
+    },
+    "prettier.requireConfig": true,
+    "prettier.useEditorConfig": false,
+    "workbench.colorCustomizations": {
+        "tab.activeBackground": "#282c34",
+        "tab.activeBorder": "#5cdb4b"
+    },
+    "editor.fontSize": 14,
+    "editor.lineHeight": 20,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.smoothScrolling": true,
+    "editor.cursorBlinking": "smooth",
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontLigatures": true,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.compactFolders": false,
+    "terminal.integrated.smoothScrolling": true,
+    "workbench.list.smoothScrolling": true,
+    "workbench.tree.indent": 16,
+    "workbench.editor.labelFormat": "short",
+    "git.autofetch": true,
+    "editor.quickSuggestions": {
+        "other": "on",
+        "comments": "off",
+        "strings": "on"
+    },
+    "files.associations": {
+        "*.css": "tailwindcss"
+    },
+    "tailwindCSS.includeLanguages": {
+        "plaintext": "html"
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "[svelte]": {
+        "editor.defaultFormatter": "svelte.svelte-vscode",
+        "editor.formatOnSave": true
+    },
+    "svelte.enable-ts-plugin": true,
+    "material-icon-theme.folders.color": "#43a047",
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "never"
+    },
+    "workbench.startupEditor": "none",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.iconTheme": "material-icon-theme",
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "terminal.integrated.fontFamily": "FiraCode Nerd Font",
+    "terminal.integrated.fontSize": 12,
+    "typescript.tsserver.maxTsServerMemory": 8192,
+    "typescript.tsserver.watchOptions": {
+        "watchFile": "useFsEvents"
+    },
+    "typescript.disableAutomaticTypeAcquisition": true,
+    "typescript.suggest.completeFunctionCalls": false,
+    "javascript.suggest.completeFunctionCalls": false,
+    "window.menuBarVisibility": "compact",
+    "chat.instructionsFilesLocations": {
+        ".github/instructions": true,
+        ".claude/rules": true,
+        "~/.copilot/instructions": true,
+        "~/.claude/rules": true,
+        "/tmp/postman-collections-post-response.instructions.md": true,
+        "/tmp/postman-collections-pre-request.instructions.md": true,
+        "/tmp/postman-folder-post-response.instructions.md": true,
+        "/tmp/postman-folder-pre-request.instructions.md": true,
+        "/tmp/postman-http-request-post-response.instructions.md": true,
+        "/tmp/postman-http-request-pre-request.instructions.md": true
+    },
+    "workbench.activityBar.location": "top",
+    "workbench.activityBar.autoHide": true,
+    "claudeCode.preferredLocation": "panel",
+    "githubPullRequests.fileListLayout": "tree",
+    "diffEditor.hideUnchangedRegions.enabled": true,
+    "diffEditor.renderSideBySide": false,
+    "githubPullRequests.hideViewedFiles": true,
+    "workbench.editor.empty.hint": "hidden"
+}
