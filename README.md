@@ -17,3 +17,7 @@
 **generate a new Brewfile using**
 
 `brew bundle dump`
+
+# Inkwell - markdown editor (macOS)
+
+use the `ink “filename”`  shell function defined in the `.zshrc` file, to open md files from CLI
