@@ -1,0 +1,23 @@
+{
+  "$schema-note": "Each command runs in order. First failure blocks the stop. Modes: 'exit-code' (default; non-zero blocks) | 'json-verdict' (parses stdout JSON; blocks if verdict field !== passValue). Optional fields: required (force-block if missing or unparseable), verdictField (default 'verdict'), passValue (default 'pass').",
+  "commands": [
+    {
+      "name": "lint",
+      "command": "pnpm",
+      "args": ["exec", "eslint", ".", "--max-warnings=0"],
+      "mode": "exit-code"
+    },
+    {
+      "name": "test",
+      "command": "pnpm",
+      "args": ["test", "--run"],
+      "mode": "exit-code"
+    },
+    {
+      "name": "fallow audit",
+      "command": "pnpm",
+      "args": ["exec", "fallow", "audit", "--format", "json"],
+      "mode": "json-verdict"
+    }
+  ]
+}
